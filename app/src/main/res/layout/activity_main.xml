@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:layout_constraintVertical_bias="0.95">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/temizle"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:background="@drawable/round_btn"
+                android:backgroundTint="@color/kirmizi"
+                android:onClick="temizle"
+                android:text="@string/temizle"
+                android:textSize="24sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/parantez"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="parantez"
+                android:text="@string/parantez"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/topla"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="topla"
+                android:text="@string/topla"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/yediBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="yediBTN"
+                android:text="@string/yedi"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/sekizBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="sekizBTN"
+                android:text="@string/sekiz"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/dokuzBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="dokuzBTN"
+                android:text="@string/dokuz"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/cikar"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="cikar"
+                android:text="@string/cikar"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/dortBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="dortBTN"
+                android:text="@string/dort"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/besBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="besBTN"
+                android:text="@string/bes"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/altiBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="altiBTN"
+                android:text="@string/alti"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/carp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="carp"
+                android:text="@string/carp"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/birBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="birBTN"
+                android:text="@string/bir"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/ikiBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="ikiBTN"
+                android:text="@string/iki"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/ucBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="ucBTN"
+                android:text="@string/uc"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bol"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="bol"
+                android:text="@string/bol"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/artieksi"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="artieksi"
+                android:text="@string/artieksi"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/sifirBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="sifirBTN"
+                android:text="@string/sifir"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/nokta"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:onClick="nokta"
+                android:text="@string/nokta"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/esit"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn"
+                android:backgroundTint="@color/yesil"
+                android:onClick="esit"
+                android:text="@string/esittir"
+                android:textSize="24sp"
+                app:backgroundTint="@null" />
+
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:autofillHints="false"
+        android:inputType="none"
+        android:text="@string/goruntule"
+        android:textAlignment="textEnd"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <ImageButton
+        android:id="@+id/geri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_btn"
+        android:contentDescription="@string/geri"
+        android:minWidth="70dp"
+        android:minHeight="48dp"
+        android:onClick="geri"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/geri"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

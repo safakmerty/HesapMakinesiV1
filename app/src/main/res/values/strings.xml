@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Hesap makinesi</string>
+
+    <string name="sifir">0</string>
+    <string name="bir">1</string>
+    <string name="iki">2</string>
+    <string name="uc">3</string>
+    <string name="dort">4</string>
+    <string name="bes">5</string>
+    <string name="alti">6</string>
+    <string name="yedi">7</string>
+    <string name="sekiz">8</string>
+    <string name="dokuz">9</string>
+
+    <string name="temizle">Temizle</string>
+    <string name="parantez">( )</string>
+    <string name="bol">÷</string>
+    <string name="carp">×</string>
+    <string name="topla">+</string>
+    <string name="cikar">-</string>
+    <string name="artieksi">+/-</string>
+    <string name="nokta">.</string>
+    <string name="esittir">=</string>
+
+    <string name="geri"> </string>
+
+    <string name="goruntule">Bir Deger Giriniz.</string>
+
+
+
+</resources>
